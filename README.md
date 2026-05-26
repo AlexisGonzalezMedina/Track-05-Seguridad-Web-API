@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js OWASP Top 10 Seguro
 
-## Getting Started
+Aplicación web moderna desarrollada con **Next.js (App Router)** enfocada en la implementación de contramedidas de seguridad robustas frente a las de directrices y vulnerabilidades del **OWASP Top 10**.
 
-First, run the development server:
+## 🚀 Requisitos Previos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Node.js
+* NPM
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Instalación y Configuración
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clonar el repositorio e ingresar al directorio del proyecto:
+   
+   cd nextjs-owasp-seguro
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Instalar las dependencias del proyecto:
 
-## Learn More
+    npm install
 
-To learn more about Next.js, take a look at the following resources:
+3. Configurar las variables de entorno:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    cp .env.local.example .env.local
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    Asegurate de que el archivo '.env.local' contenga un una clave para la firma de sesiones:
 
-## Deploy on Vercel
+    JWT_SECRET=Un_secreto_unico_y_seguro_para_el_sistema
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Ejecutar la aplicacion en el entorno de desarrollo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    npm run dev
+
+5. Credenciales de Prueba
+
+    Usuario: admin
+    Contraseña: ContraseñaDePrueba25052026
