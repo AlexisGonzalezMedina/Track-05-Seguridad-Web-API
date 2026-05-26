@@ -2,12 +2,12 @@
 
 Aplicación web moderna desarrollada con **Next.js (App Router)** enfocada en la implementación de contramedidas de seguridad robustas frente a las de directrices y vulnerabilidades del **OWASP Top 10**.
 
-## 🚀 Requisitos Previos
+## Requisitos Previos
 
 * Node.js
 * NPM
 
-## 🛠️ Instalación y Configuración
+## Instalación y Configuración
 
 1. Clonar el repositorio e ingresar al directorio del proyecto:
    
